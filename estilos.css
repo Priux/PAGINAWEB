@@ -1,0 +1,116 @@
+body
+{
+    
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    background-image: url(LOGO/FONDO.JPG)
+}
+.general{
+    width: 780px;
+    margin-left: 120px;
+}
+.img{
+    width: 100%;
+}
+
+h1
+{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    font-size: 75px;
+}
+
+
+h2
+{
+    text-align: center;
+    margin: 10px;
+    font-size: 40px;
+    padding: 10px;
+}
+
+p
+{
+    text-align: center;
+    color: white;
+    line-height: 1.5em;
+    font-size: 20px;
+}
+
+li
+{
+    line-height: 1.5em;
+    align-items: center;
+    color: white;
+}
+.one
+{
+text-align: center;
+list-style-position: inside;
+letter-spacing: 1px; /* Espacio entre letras de 1 píxel */
+
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+header
+{
+    display: flex;
+    min-height:  70px;
+justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+max-width: 100%;
+
+}
+.logo
+{
+    display: flex;
+    align-items: center;
+}
+.logo img
+{
+    height: 50px;
+    margin-right: 10px;
+}
+nav a
+{
+    font-weight: 600;
+    padding-right: 10px;
+}
+nav a:hover
+{
+    color: wheat;
+}
+
+@media (max-width:700px)
+{
+    header
+    {
+        flex-direction: column;
+    }
+    nav
+    {
+        padding: 10px 0px;
+    }
+}
+.Atencion{
+font-size: 60px;
+text-align: center;
+padding-bottom: 60PX;
+padding-top: 80px;
+color: white;
+}
+.container-link{
+    text-align: center;
+    padding-top: 30px;
+}
+.click{
+    font-size: 40px;
+}
+
+
